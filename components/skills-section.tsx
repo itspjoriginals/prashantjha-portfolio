@@ -15,11 +15,11 @@ import {
   SiStyledcomponents,
   SiFigma,
   SiGithub,
-  SiVisualstudio,
   SiNodedotjs,
   SiWebpack,
   SiJest,
 } from "react-icons/si"
+// import { SiVisualstudiocode } from "react-icons/si";  
 import { FaCode, FaPalette, FaTools } from "react-icons/fa"
 
 export function SkillsSection() {
@@ -56,7 +56,7 @@ export function SkillsSection() {
       icon: <FaTools className="h-6 w-6" />,
       skills: [
         { name: "Git & GitHub", level: 85, icon: <SiGithub className="h-5 w-5 text-foreground" /> },
-        { name: "VS Code", level: 95, icon: <SiVisualstudio className="h-5 w-5 text-[#007ACC]" /> },
+        // { name: "VS Code", level: 95, icon: <SiVisualstudiocode className="h-5 w-5 text-[#007ACC]" /> },
         { name: "Node.js", level: 70, icon: <SiNodedotjs className="h-5 w-5 text-[#339933]" /> },
         { name: "REST APIs", level: 80, icon: <FaCode className="h-5 w-5 text-primary" /> },
         { name: "Webpack", level: 65, icon: <SiWebpack className="h-5 w-5 text-[#8DD6F9]" /> },
